@@ -1,0 +1,4 @@
+File=configurator.kcfg
+Include=kglobalsettings.h 
+ClassName=Settings 
+Singleton=true 

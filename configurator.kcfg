@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <include>kglobalsettings.h</include>
+  <kcfgfile name="configurator"/>
+  <group name="configurator">
+    <entry name="line" type="String">
+      <label>How the main window is divided.</label>
+    </entry>
+    <entry name="spinBox" type="Int">
+      <label>Width of the main window.</label>
+      <default>600</default>
+    </entry>
+    <entry name="Font" type="Font">
+      <label>Height of the main window.</label>
+      <default code="true">KGlobalSettings::generalFont()</default>
+    </entry>
+   <entry name="checkBox" type="Int">
+	  <label></label>
+	  <default>1</default>
+   </entry>
+  </group>
+</kcfg>
