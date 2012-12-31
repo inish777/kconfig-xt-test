@@ -7,14 +7,14 @@
   <kcfgfile name="configurator"/>
   <group name="configurator">
     <entry name="line" type="String">
-      <label>How the main window is divided.</label>
+      <label>Just a string.</label>
     </entry>
     <entry name="spinBox" type="Int">
-      <label>Width of the main window.</label>
+      <label>Just an integet</label>
       <default>600</default>
     </entry>
     <entry name="Font" type="Font">
-      <label>Height of the main window.</label>
+      <label>Just a font.</label>
       <default code="true">KGlobalSettings::generalFont()</default>
     </entry>
    <entry name="checkBox" type="Int">
